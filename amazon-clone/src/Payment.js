@@ -67,7 +67,7 @@ function Payment() {
                 type: "EMPTY_BASKET"
             })
 
-            navigate.replace('/orders');
+            navigate('/orders', {replace: true});
         })
     }
 
