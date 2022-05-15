@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This Single Page Application (SPA) is a clone of the Amazon eCom website mocking the product purchase life cycle.
+
+Stack:
+
+1. React - Frontend
+
+   > Created recurring templates as components for reusability.
+   > Optimised rendering using memoization.
+   > production code bundled and deployed to ------
+   > State management using React context and useReducers
+
+2. NodeJS - Backend
+
+   > Enhanced API protection with helmet library.
+   > Acts as a proxy server to hide API keys from the UI
+
+3. Firebase - Realtime Database
+
+   > Used for manul and OAuth sign in
+   > Database for storing orders
+
+4. Stripe - Payment Interface
+
+   > Used for mocking payments
+
+5. Git - Version Control
+
+   > Used for commit tracking and collaboration
